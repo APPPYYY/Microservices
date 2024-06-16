@@ -1,4 +1,5 @@
-#**Microservices Project**
+**Microservices Project**
+
 This project demonstrates a comprehensive implementation of a microservices architecture using Spring Boot and various Spring Cloud components. It consists of six microservices:
 
 1.UserService: Manages user-related operations.
@@ -53,7 +54,7 @@ Prerequisites
 
 **Steps**
 1.Clone the Repository
-git clone https://github.com/yourusername/microservices-project.git
+git clone https://github.com/APPPYYY/Microservices.git
 2.Setup Databases
 MySQL: Create a database named microservices and configure UserService with the appropriate JDBC URL, username, and password.
 PostgreSQL: Create a database named microservices and configure HotelService with the appropriate JDBC URL, username, and password.
