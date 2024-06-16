@@ -1,38 +1,38 @@
-**Microservices Project**
+🌟 Microservices Project
 
 This project demonstrates a comprehensive implementation of a microservices architecture using Spring Boot and various Spring Cloud components. It consists of six microservices:
 
-1.UserService: Manages user-related operations.
+1.UserService: Manages user-related operations.👤
 
-2.HotelService: Manages hotel-related operations.
+2.HotelService: Manages hotel-related operations. 🏨
 
-3.RatingService: Manages rating-related operations.
+3.RatingService: Manages rating-related operations.⭐
 
-4.ServiceRegistry: Eureka service registry for service discovery.
+4.ServiceRegistry: Eureka service registry for service discovery. 🔍
 
-5.APIGateway: API Gateway using Spring Cloud Gateway.
+5.APIGateway: API Gateway using Spring Cloud Gateway. 🌐
 
-6.ConfigServer: Centralized configuration server.
+6.ConfigServer: Centralized configuration server.⚙️
 
 **Technologies Used**
 
-1.Spring Boot: Framework for building Java applications.
+1.Spring Boot: Framework for building Java applications. 🍃
 
-2.Spring Cloud: For building microservices architecture.
+2.Spring Cloud: For building microservices architecture.☁️
 
-3.Eureka: Service registry and discovery.
+3.Eureka: Service registry and discovery. 🔎
 
-4.Config Server: Centralized configuration management.
+4.Config Server: Centralized configuration management. 🗂️
 
-5.Gateway: API Gateway for routing and filtering.
+5.Gateway: API Gateway for routing and filtering. 🚦
 
-6.Spring AOP: Aspect-Oriented Programming for cross-cutting concerns.
+6.Spring AOP: Aspect-Oriented Programming for cross-cutting concerns.✂️
 
-7.Spring Security: Securing microservices.
+7.Spring Security: Securing microservices. 🔒
 
-8.Resilience4j: Fault tolerance (circuit breaker, retry, rate limiting).
+8.Resilience4j: Fault tolerance (circuit breaker, retry, rate limiting). 🛡️
 
-9.JPA: Java Persistence API for ORM.
+9.JPA: Java Persistence API for ORM. 💾
 
 10.Databases:
 
@@ -66,26 +66,27 @@ This project demonstrates a comprehensive implementation of a microservices arch
 
 **Project Structure**
 
-├── UserService
-├── HotelService
-├── RatingService
-├── ServiceRegistry
-├── APIGateway
-└── ConfigServer
+├── UserService 🧑‍💼
+├── HotelService 🏨
+├── RatingService ⭐
+├── ServiceRegistry 🔍
+├── APIGateway 🌐
+└── ConfigServer ⚙️
+
 
 **How to Run**
 
 Prerequisites
 
-1.Java 17
+1.Java 17 ☕
 
-2.Maven
+2.Maven 🛠️
 
-3.MySQL, PostgreSQL, MongoDB
+3.MySQL, PostgreSQL, MongoDB 💾
 
-4.Git
+4.Git 👨‍💻
 
-5.OKTA account
+5.OKTA account 🔐
 
 **Steps**
 
@@ -109,29 +110,29 @@ Update the application.properties of ConfigServer to point to your GitHub reposi
 
 **Start the services in the following order:**
 
-1.ConfigServer
+1.ConfigServer⚙️
 
-2.ServiceRegistry
+2.ServiceRegistry 🔍
 
-3.APIGateway
+3.APIGateway 🌐
 
-4.UserService
+4.UserService 👤
 
-5.HotelService
+5.HotelService 🏨
 
-6.RatingService
+6.RatingService⭐
 
 **Access Services**
 
-Service Registry: http://localhost:9000
+Service Registry: http://localhost:9000 🔍
 
-API Gateway: http://localhost:9999
+API Gateway: http://localhost:9999 🌐
 
-User Service: http://localhost:9091
+User Service: http://localhost:9091 👤
 
-Hotel Service: http://localhost:9092
+Hotel Service: http://localhost:9092 🏨
 
-Rating Service: http://localhost:9093
+Rating Service: http://localhost:9093⭐
 
 **Configuration Files**
 
