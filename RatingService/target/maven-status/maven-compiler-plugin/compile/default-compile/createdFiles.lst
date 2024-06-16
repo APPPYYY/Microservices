@@ -1,6 +1,0 @@
-com\ms\rating\service\RatingServiceApplication.class
-com\ms\rating\service\entities\Rating.class
-com\ms\rating\service\controllers\RatingController.class
-com\ms\rating\service\services\impl\RatingServiceImpl.class
-com\ms\rating\service\services\RatingService.class
-com\ms\rating\service\repo\RatingRepo.class
