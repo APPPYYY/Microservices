@@ -3,10 +3,15 @@
 This project demonstrates a comprehensive implementation of a microservices architecture using Spring Boot and various Spring Cloud components. It consists of six microservices:
 
 1.UserService: Manages user-related operations.
+
 2.HotelService: Manages hotel-related operations.
+
 3.RatingService: Manages rating-related operations.
+
 4.ServiceRegistry: Eureka service registry for service discovery.
+
 5.APIGateway: API Gateway using Spring Cloud Gateway.
+
 6.ConfigServer: Centralized configuration server.
 
 **Technologies Used**
